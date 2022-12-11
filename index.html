@@ -4,15 +4,22 @@
 <head>
     <title>｡˚⋆ Pixels Page °｡˚✿</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/16x16.png">
     <link rel="manifest" href="assets/favicons/site.webmanifest">
-    <meta property="og:site_name" content="★彡 Kitty Kitty Meow Meow 彡★" />
-    <meta property="og:title" content="｡˚⋆ Pixels Page °｡˚✿" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="*•.¸♡ Your Favorite Catgirl ♡¸.•*" />
+    <!--Embedding-->
+    <meta name="color-scheme" content="light dark">
+    <meta content="Pixels Page" property="og:title" />
+    <meta content="Your favorite catgirl! Kitty kitty meow meow!" property="og:description" />
+    <meta content="https://pixeliciousx.github.io/#aboutme" property="og:url" />
+    <meta content="https://pixeliciousx.github.io/aboutme/assets/images/embedicon.png" property="og:image" />
+    <meta content="#FCCBDF" data-react-helmet="true" name="theme-color" />
+    <!--Twitter Card-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@_Pixelicious">
+    <!--The Site-->
     <link href="https://fonts.googleapis.com/css?display=swap&family=Silkscreen:400,400italic" rel="stylesheet"
         type="text/css" />
     <style>
@@ -1048,8 +1055,6 @@
         }
 
         .image .frame {
-            -webkit-backface-visibility: hidden;
-            -webkit-transform: translate3d(0, 0, 0);
             display: inline-block;
             max-width: 100%;
             overflow: hidden;
@@ -2386,48 +2391,56 @@
                 <hr id="divider04" class="full">
                 <div id="container02" class="container columns full">
                     <div class="wrapper">
-                        <div>
-                            <p id="text07">Kitty Kitty Meow Meow</p>
-                            <ul id="icons01" class="icons">
-                                <li>
-                                    <a class="n01" href="https://discord.gg/7nSwUDGDpn">
-                                        <svg>
-                                            <use xlink:href="#icon-3b7eeeccbb457780f277fce4669f67a0"></use>
-                                        </svg>
-                                        <span class="label">Discord</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="n02" href="https://twitter.com/_Pixelicious">
-                                        <svg>
-                                            <use xlink:href="#icon-0c4db87eff374f0f1ef47f8f043f0132"></use>
-                                        </svg>
-                                        <span class="label">Twitter</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="n03" href="https://github.com/Pixeliciousx">
-                                        <svg>
-                                            <use xlink:href="#icon-8c4b37645de3c276d895d87df51ba614"></use>
-                                        </svg>
-                                        <span class="label">GitHub</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="n04" href="https://www.youtube.com/@_pixelicious">
-                                        <svg>
-                                            <use xlink:href="#icon-a63c85b2b6ee333b6d6753e57c8dfe0a"></use>
-                                        </svg>
-                                        <span class="label">YouTube (Alt)</span>
-                                    </a>
-                                </li>
-                            </ul>
+                        <div class="inner" data-reorder="1,0">
+                            <div>
+                                <p id="text07">Kitty Kitty Meow Meow</p>
+                                <ul id="icons01" class="icons">
+                                    <li>
+                                        <a class="n01" href="https://discord.gg/7nSwUDGDpn">
+                                            <svg>
+                                                <use xlink:href="#icon-3b7eeeccbb457780f277fce4669f67a0"></use>
+                                            </svg>
+                                            <span class="label">Discord</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="n02" href="https://twitter.com/_Pixelicious">
+                                            <svg>
+                                                <use xlink:href="#icon-0c4db87eff374f0f1ef47f8f043f0132"></use>
+                                            </svg>
+                                            <span class="label">Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="n03" href="https://github.com/Pixeliciousx">
+                                            <svg>
+                                                <use xlink:href="#icon-8c4b37645de3c276d895d87df51ba614"></use>
+                                            </svg>
+                                            <span class="label">GitHub</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="n04" href="https://www.youtube.com/@_pixelicious">
+                                            <svg>
+                                                <use xlink:href="#icon-a63c85b2b6ee333b6d6753e57c8dfe0a"></use>
+                                            </svg>
+                                            <span class="label">YouTube (Alt)</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul id="buttons01" class="buttons">
+                                    <li>
+                                        <a href="https://domain.ext/path" class="button n01">Change Theme</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <script>
         (function () {
