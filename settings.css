@@ -1,58 +1,22 @@
-/*:root{
-    --button-color: #FCCBDF;
-    --button-color-hover: #EEACCA;
-    --background-color: #FCCBDF;
-    --ui-background-color: #ADD8E6;
-    --ui-border-color: #FFFFFF;
-    --text-color: white;
-    --background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20%23EEACCA%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%3C%2Fsvg%3E');
-
-}*/
-.darkSettings {
-     /*DARK THEME COLORS HERE*/
-    --background-color: #3B4252 !important; 
-    --ui-background-color: #4C566A !important;
-    --ui-background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20%23434C5E%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%3C%2Fsvg%3E') !important;
-    --ui-border-color: #E5E9F0 !important;
-    --text-color: #E5E9F0 !important;
-    --button-color: #3B4252 !important;
-    --button-color-hover: #2E3440 !important; 
-    --background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20%232E3440%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%3C%2Fsvg%3E') !important;
-}
-.lightSettings {
+:root{
+    /*DARK THEME COLORS HERE*/
+    --dark-background-color: #3B4252 !important; 
+    --dark-ui-background-color: #4C566A !important;
+    --dark-ui-background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20%23434C5E%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%3C%2Fsvg%3E') !important;
+    --dark-ui-border-color: #E5E9F0 !important;
+    --dark-text-color: #E5E9F0 !important;
+    --dark-button-color: #3B4252 !important;
+    --dark-button-color-hover: #2E3440 !important; 
+    --dark-background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20%232E3440%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%3C%2Fsvg%3E') !important;
     /*LIGHT THEME COLORS HERE*/
-    --button-color: #FCCBDF !important;
-    --button-color-hover: #EEACCA !important;
-    --background-color: #FCCBDF !important;
-    --ui-background-color: #ADD8E6 !important;
-    --ui-background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20%2387CEEB%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%3C%2Fsvg%3E') !important;
-    --ui-border-color: #E5E9F0 !important;
-    --text-color: #E5E9F0 !important;
-    --background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20%23EEACCA%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%3C%2Fsvg%3E') !important;
-}
+    --light-button-color: #FCCBDF !important;
+    --light-button-color-hover: #EEACCA !important;
+    --light-background-color: #FCCBDF !important;
+    --light-ui-background-color: #ADD8E6 !important;
+    --light-ui-background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20%2387CEEB%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%3C%2Fsvg%3E') !important;
+    --light-ui-border-color: #E5E9F0 !important;
+    --light-text-color: #E5E9F0 !important;
+    --light-background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20%23EEACCA%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%3C%2Fsvg%3E') !important;
 
-@media (prefers-color-scheme: dark) {
-    html.dark {
-        --background-color: #3B4252;
-        --ui-background-color: #4C566A;
-        --ui-background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20%23434C5E%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%3C%2Fsvg%3E');
-        --ui-border-color: #E5E9F0;
-        --text-color: #E5E9F0;
-        --button-color: #3B4252;
-        --button-color-hover: #2E3440; 
-        --background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20%232E3440%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%3C%2Fsvg%3E');
-    }
-}
-  
-@media (prefers-color-scheme: light) {
-    html.light {
-        --button-color: #FCCBDF;
-        --button-color-hover: #EEACCA;
-        --background-color: #FCCBDF;
-        --ui-background-color: #ADD8E6;
-        --ui-background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20%2387CEEB%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%3C%2Fsvg%3E');
-        --ui-border-color: #E5E9F0;
-        --text-color: #E5E9F0;
-        --background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20%23EEACCA%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%3C%2Fsvg%3E');
-    }
+    
 }

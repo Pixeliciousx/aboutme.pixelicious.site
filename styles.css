@@ -1,3 +1,73 @@
+
+
+
+
+.darkSettings {
+    --background-color: var(--dark-background-color) !important; 
+    --ui-background-color: var(--dark-ui-background-color) !important;
+    --ui-background-image: var(--dark-ui-background-image) !important;
+    --ui-border-color: var(--dark-ui-border-color) !important;
+    --text-color: var(--dark-text-color) !important;
+    --button-color: var(--dark-button-color) !important;
+    --button-color-hover: var(--dark-button-color-hover) !important; 
+    --background-image: var(--dark-background-image) !important;
+}
+.lightSettings {
+    /*LIGHT THEME COLORS HERE*/
+    --background-color: var(--light-background-color) !important; 
+    --ui-background-color: var(--light-ui-background-color) !important;
+    --ui-background-image: var(--light-ui-background-image) !important;
+    --ui-border-color: var(--light-ui-border-color) !important;
+    --text-color: var(--light-text-color) !important;
+    --button-color: var(--light-button-color) !important;
+    --button-color-hover: var(--light-button-color-hover) !important; 
+    --background-image: var(--light-background-image) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    html.dark {
+        --background-color: var(--dark-background-color); 
+    --ui-background-color: var(--dark-ui-background-color);
+    --ui-background-image: var(--dark-ui-background-image);
+    --ui-border-color: var(--dark-ui-border-color);
+    --text-color: var(--dark-text-color);
+    --button-color: var(--dark-button-color);
+    --button-color-hover: var(--dark-button-color-hover); 
+    --background-image: var(--dark-background-image);
+}
+}
+  
+@media (prefers-color-scheme: light) {
+    html.light {
+    --background-color: var(--light-background-color); 
+    --ui-background-color: var(--light-ui-background-color);
+    --ui-background-image: var(--light-ui-background-image);
+    --ui-border-color: var(--light-ui-border-color);
+    --text-color: var(--light-text-color);
+    --button-color: var(--light-button-color);
+    --button-color-hover: var(--light-button-color-hover); 
+    --background-image: var(--light-background-image);
+}
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    border-color: transparent;
+    background-color: var(--background-color);
+    border: 2px solid transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: var(--ui-background-color);
+    min-height: 40px;
+}
+
+
 html,
         body,
         div,
@@ -166,7 +236,7 @@ html,
             min-width: 320px;
             overflow-x: hidden;
             word-wrap: break-word;
-            background-color: #FCCBDF;
+            background-color: var(--background-color);
         }
 
         body:before {
@@ -188,7 +258,7 @@ html,
         }
 
         body:after {
-            background-color: #FCCBDF;
+            background-color: var(--background-color);
             content: '';
             display: block;
             height: 100%;
